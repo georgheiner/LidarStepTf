@@ -41,6 +41,23 @@ The built-in web UI lets you change and persist:
 
 All values are stored in NVS on the ESP32.
 
+## Mock Preview (No Hardware)
+
+The repository includes a browser-only simulator at [mock.html](mock.html).
+
+Quick start options:
+
+1. Open the file directly in your browser.
+2. Or run a local static server from the repo root:
+
+```bash
+python3 -m http.server 8080
+```
+
+Then open `http://localhost:8080/mock.html`.
+
+The mock page uses the same visual style as the embedded UI and simulates room geometry, moving objects, scan speed, and motion highlighting.
+
 ## MQTT Topics
 
 Base topic defaults to `lidar/room_scanner` and is configurable.
