@@ -1,0 +1,10 @@
+.pio/
+compile_commands.json
+__pycache__/
+*.pyc
+*.pyo
+*.log
+.DS_Store
+
+.vscode/*
+!.vscode/settings.json
